@@ -5,7 +5,7 @@
  *
  * @datash: data relevant (environ)
  *
- * Return: no return
+ * Return: retur nothing
  */
 void cd_dot(data_shell *datash)
 {

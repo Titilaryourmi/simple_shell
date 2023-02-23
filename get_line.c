@@ -6,6 +6,7 @@
  * @buffer: str that is been called to line
  * @n: size of line
  * @j: size of buffer
+ * return: returns nothing
  */
 void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 {
