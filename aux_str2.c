@@ -37,7 +37,6 @@ int _strlen(const char *s)
  * cmp_chars - compare chars of strings
  * @str: input string.
  * @delim: delimiter.
- *
  * Return: 1 if are equals, 0 if not.
  */
 int cmp_chars(char str[], const char *delim)
@@ -64,7 +63,6 @@ int cmp_chars(char str[], const char *delim)
  * _strtok - splits a string by some delimiter.
  * @str: input string.
  * @delim: delimiter.
- *
  * Return: string splited.
  */
 char *_strtok(char str[], const char *delim)
@@ -112,7 +110,6 @@ char *_strtok(char str[], const char *delim)
 
 /**
  * _isdigit - defines if string passed is a number
- *
  * @s: input string
  * Return: 1 if string is a number. 0 in other case.
  */
